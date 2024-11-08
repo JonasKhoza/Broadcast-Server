@@ -1,0 +1,26 @@
+{
+  "name": "broadcast-server",
+  "version": "1.0.0",
+  "description": "A simple broadcast server that allow clients to connect to it, send messages that will be broadcasted to all connected clients.",
+  "main": "index.js",
+  "bin": {
+    "broadcast-server": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon dist/server.js"
+  },
+  "author": "Jonas Khoza",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "@types/websocket": "^1.0.10",
+    "@types/ws": "^8.5.13",
+    "commander": "^12.1.0",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "websocket": "^1.0.35",
+    "ws": "^8.18.0"
+  }
+}
